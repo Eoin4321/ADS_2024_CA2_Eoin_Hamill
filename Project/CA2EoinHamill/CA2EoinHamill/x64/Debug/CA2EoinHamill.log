@@ -1,0 +1,6 @@
+﻿  CA2EoinHamill.cpp
+C:\Users\kay\Desktop\project1111\ADS_2024_CA2_Eoin_Hamill\Project\CA2EoinHamill\BinaryTree.h(258,21): error C2995: 'void BinaryTree<T>::clear(void)': function template has already been defined
+  (compiling source file 'CA2EoinHamill.cpp')
+      C:\Users\kay\Desktop\project1111\ADS_2024_CA2_Eoin_Hamill\Project\CA2EoinHamill\BinaryTree.h(17,7):
+      see declaration of 'BinaryTree<T>::clear'
+  

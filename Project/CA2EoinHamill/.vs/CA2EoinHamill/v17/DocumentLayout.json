@@ -14,6 +14,10 @@
       "RelativeMoniker": "D:0:0:{CCFB9B71-2331-4F03-803A-F984A33AFC4E}|CA2EoinHamill.vcxproj|solutionrelative:BSTNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CCFB9B71-2331-4F03-803A-F984A33AFC4E}|CA2EoinHamill.vcxproj|C:\\Users\\kay\\Desktop\\project1111\\ADS_2024_CA2_Eoin_Hamill\\Project\\CA2EoinHamill\\TreeMap.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CCFB9B71-2331-4F03-803A-F984A33AFC4E}|CA2EoinHamill.vcxproj|solutionrelative:TreeMap.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CCFB9B71-2331-4F03-803A-F984A33AFC4E}|CA2EoinHamill.vcxproj|C:\\Users\\kay\\Desktop\\project1111\\ADS_2024_CA2_Eoin_Hamill\\Project\\CA2EoinHamill\\KeyValuePair.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CCFB9B71-2331-4F03-803A-F984A33AFC4E}|CA2EoinHamill.vcxproj|solutionrelative:KeyValuePair.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -29,8 +33,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TreeMap.h",
+              "DocumentMoniker": "C:\\Users\\kay\\Desktop\\project1111\\ADS_2024_CA2_Eoin_Hamill\\Project\\CA2EoinHamill\\TreeMap.h",
+              "RelativeDocumentMoniker": "TreeMap.h",
+              "ToolTip": "C:\\Users\\kay\\Desktop\\project1111\\ADS_2024_CA2_Eoin_Hamill\\Project\\CA2EoinHamill\\TreeMap.h",
+              "RelativeToolTip": "TreeMap.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-29T22:40:50.974Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -39,14 +56,14 @@
               "RelativeDocumentMoniker": "..\\MethodsTest\\MethodsTest.cpp",
               "ToolTip": "C:\\Users\\kay\\Desktop\\project1111\\ADS_2024_CA2_Eoin_Hamill\\Project\\MethodsTest\\MethodsTest.cpp",
               "RelativeToolTip": "..\\MethodsTest\\MethodsTest.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswBEAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-28T15:46:02.414Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "KeyValuePair.h",
               "DocumentMoniker": "C:\\Users\\kay\\Desktop\\project1111\\ADS_2024_CA2_Eoin_Hamill\\Project\\CA2EoinHamill\\KeyValuePair.h",
               "RelativeDocumentMoniker": "KeyValuePair.h",
@@ -54,8 +71,7 @@
               "RelativeToolTip": "KeyValuePair.h",
               "ViewState": "AgIAABsAAAAAAAAAAAAowC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-28T11:26:49.204Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T11:26:49.204Z"
             },
             {
               "$type": "Document",
@@ -65,7 +81,7 @@
               "RelativeDocumentMoniker": "BinaryTree.h",
               "ToolTip": "C:\\Users\\kay\\Desktop\\project1111\\ADS_2024_CA2_Eoin_Hamill\\Project\\CA2EoinHamill\\BinaryTree.h",
               "RelativeToolTip": "BinaryTree.h",
-              "ViewState": "AgIAAPUAAAAAAAAAAAAtwAMBAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAPUAAAAAAAAAAAAtwAABAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-28T11:28:38.202Z",
               "EditorCaption": ""
@@ -78,14 +94,14 @@
               "RelativeDocumentMoniker": "BSTNode.h",
               "ToolTip": "C:\\Users\\kay\\Desktop\\project1111\\ADS_2024_CA2_Eoin_Hamill\\Project\\CA2EoinHamill\\BSTNode.h",
               "RelativeToolTip": "BSTNode.h",
-              "ViewState": "AgIAAIwAAAAAAAAAAAAowKEAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAowKEAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-28T11:28:36.695Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CA2EoinHamill.cpp",
               "DocumentMoniker": "C:\\Users\\kay\\Desktop\\project1111\\ADS_2024_CA2_Eoin_Hamill\\Project\\CA2EoinHamill\\CA2EoinHamill.cpp",
               "RelativeDocumentMoniker": "CA2EoinHamill.cpp",
