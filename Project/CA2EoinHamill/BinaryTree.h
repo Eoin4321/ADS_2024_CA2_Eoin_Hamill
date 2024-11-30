@@ -23,9 +23,9 @@ public:
 	void clear();
 	/*bool containsKey(K key);
 	V& get(K key);
-	BinaryTree<K>keySet();
-	void put(K key, V value);
-	int size();
+	BinaryTree<K>keySet();*/
+	//void put(K key, V value);
+	/*int size();
 	Bool removeKey(K key);
 	V& operator[K key];*/
 

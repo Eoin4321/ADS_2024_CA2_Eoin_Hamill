@@ -10,8 +10,12 @@ public:
 	KeyValuePair();
 	K& getKey();
 	V& getValue();
-void setKey(K& keyIn);
+	void setKey(K& keyIn);
 	void setValue(V& valueIn);
+	bool operator<(KeyValuePair<K, V>& other);
+	bool operator>(KeyValuePair<K, V>& other);
+	bool operator==(KeyValuePair<K, V>& other);
+
 	
 
 };
@@ -27,7 +31,7 @@ KeyValuePair<K,V>::KeyValuePair()
 template <typename K, typename V>
 K& KeyValuePair<K, V>::getKey()
 {
-	return key;
+	return this->key;
 }
 
 //Get value method
@@ -49,4 +53,20 @@ template <typename K, typename V>
 void KeyValuePair<K, V>::setValue(V& valueIn)
 {
 	this->value = V(valueIn);
+}
+
+//Less then more then and == Operators
+template <typename K, typename V>
+bool KeyValuePair<K, V>::operator<(KeyValuePair<K, V> &other) {
+	return this->getKey()<other.getKey();
+}
+
+template <typename K, typename V>
+bool KeyValuePair<K, V>::operator>(KeyValuePair<K, V>& other) {
+	return this->getKey() > other.getKey();
+}
+
+template <typename K, typename V>
+bool KeyValuePair<K, V>::operator==(KeyValuePair<K, V>& other) {
+	return this->getKey() == other.getKey();
 }
