@@ -29,7 +29,7 @@
     <ClInclude Include="KeyValuePair.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TreeMap.h">
+    <ClInclude Include="Tree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

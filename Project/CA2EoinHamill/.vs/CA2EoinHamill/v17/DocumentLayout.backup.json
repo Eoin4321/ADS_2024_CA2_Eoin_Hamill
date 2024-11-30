@@ -3,19 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\kay\\Desktop\\project1111\\ADS_2024_CA2_Eoin_Hamill\\Project\\CA2EoinHamill\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{46DACC1E-8470-4892-97CA-C7D45476AF4D}|..\\MethodsTest\\MethodsTest.vcxproj|C:\\Users\\kay\\Desktop\\project1111\\ADS_2024_CA2_Eoin_Hamill\\Project\\MethodsTest\\MethodsTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CCFB9B71-2331-4F03-803A-F984A33AFC4E}|CA2EoinHamill.vcxproj|C:\\Users\\kay\\Desktop\\project1111\\ADS_2024_CA2_Eoin_Hamill\\Project\\CA2EoinHamill\\Tree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CCFB9B71-2331-4F03-803A-F984A33AFC4E}|CA2EoinHamill.vcxproj|solutionrelative:Tree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CCFB9B71-2331-4F03-803A-F984A33AFC4E}|CA2EoinHamill.vcxproj|C:\\Users\\kay\\Desktop\\project1111\\ADS_2024_CA2_Eoin_Hamill\\Project\\CA2EoinHamill\\BinaryTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CCFB9B71-2331-4F03-803A-F984A33AFC4E}|CA2EoinHamill.vcxproj|solutionrelative:BinaryTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CCFB9B71-2331-4F03-803A-F984A33AFC4E}|CA2EoinHamill.vcxproj|C:\\Users\\kay\\Desktop\\project1111\\ADS_2024_CA2_Eoin_Hamill\\Project\\CA2EoinHamill\\KeyValuePair.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CCFB9B71-2331-4F03-803A-F984A33AFC4E}|CA2EoinHamill.vcxproj|solutionrelative:KeyValuePair.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CCFB9B71-2331-4F03-803A-F984A33AFC4E}|CA2EoinHamill.vcxproj|C:\\Users\\kay\\Desktop\\project1111\\ADS_2024_CA2_Eoin_Hamill\\Project\\CA2EoinHamill\\BSTNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CCFB9B71-2331-4F03-803A-F984A33AFC4E}|CA2EoinHamill.vcxproj|solutionrelative:BSTNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCFB9B71-2331-4F03-803A-F984A33AFC4E}|CA2EoinHamill.vcxproj|C:\\Users\\kay\\Desktop\\project1111\\ADS_2024_CA2_Eoin_Hamill\\Project\\CA2EoinHamill\\KeyValuePair.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CCFB9B71-2331-4F03-803A-F984A33AFC4E}|CA2EoinHamill.vcxproj|solutionrelative:KeyValuePair.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{46DACC1E-8470-4892-97CA-C7D45476AF4D}|..\\MethodsTest\\MethodsTest.vcxproj|C:\\Users\\kay\\Desktop\\project1111\\ADS_2024_CA2_Eoin_Hamill\\Project\\MethodsTest\\MethodsTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CCFB9B71-2331-4F03-803A-F984A33AFC4E}|CA2EoinHamill.vcxproj|C:\\Users\\kay\\Desktop\\project1111\\ADS_2024_CA2_Eoin_Hamill\\Project\\CA2EoinHamill\\CA2EoinHamill.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -34,27 +38,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Tree.h",
+              "DocumentMoniker": "C:\\Users\\kay\\Desktop\\project1111\\ADS_2024_CA2_Eoin_Hamill\\Project\\CA2EoinHamill\\Tree.h",
+              "RelativeDocumentMoniker": "Tree.h",
+              "ToolTip": "C:\\Users\\kay\\Desktop\\project1111\\ADS_2024_CA2_Eoin_Hamill\\Project\\CA2EoinHamill\\Tree.h*",
+              "RelativeToolTip": "Tree.h*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-29T22:40:50.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MethodsTest.cpp",
               "DocumentMoniker": "C:\\Users\\kay\\Desktop\\project1111\\ADS_2024_CA2_Eoin_Hamill\\Project\\MethodsTest\\MethodsTest.cpp",
               "RelativeDocumentMoniker": "..\\MethodsTest\\MethodsTest.cpp",
-              "ToolTip": "C:\\Users\\kay\\Desktop\\project1111\\ADS_2024_CA2_Eoin_Hamill\\Project\\MethodsTest\\MethodsTest.cpp*",
-              "RelativeToolTip": "..\\MethodsTest\\MethodsTest.cpp*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAiwBsAAAAUAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\kay\\Desktop\\project1111\\ADS_2024_CA2_Eoin_Hamill\\Project\\MethodsTest\\MethodsTest.cpp",
+              "RelativeToolTip": "..\\MethodsTest\\MethodsTest.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-28T15:46:02.414Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "KeyValuePair.h",
               "DocumentMoniker": "C:\\Users\\kay\\Desktop\\project1111\\ADS_2024_CA2_Eoin_Hamill\\Project\\CA2EoinHamill\\KeyValuePair.h",
               "RelativeDocumentMoniker": "KeyValuePair.h",
               "ToolTip": "C:\\Users\\kay\\Desktop\\project1111\\ADS_2024_CA2_Eoin_Hamill\\Project\\CA2EoinHamill\\KeyValuePair.h",
               "RelativeToolTip": "KeyValuePair.h",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowC0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-28T11:26:49.204Z"
+              "WhenOpened": "2024-11-28T11:26:49.204Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -64,25 +82,27 @@
               "RelativeDocumentMoniker": "BinaryTree.h",
               "ToolTip": "C:\\Users\\kay\\Desktop\\project1111\\ADS_2024_CA2_Eoin_Hamill\\Project\\CA2EoinHamill\\BinaryTree.h",
               "RelativeToolTip": "BinaryTree.h",
-              "ViewState": "AgIAAPUAAAAAAAAAAAAtwAMBAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAO4AAAAAAAAAAAAcwP4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-28T11:28:38.202Z"
+              "WhenOpened": "2024-11-28T11:28:38.202Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BSTNode.h",
               "DocumentMoniker": "C:\\Users\\kay\\Desktop\\project1111\\ADS_2024_CA2_Eoin_Hamill\\Project\\CA2EoinHamill\\BSTNode.h",
               "RelativeDocumentMoniker": "BSTNode.h",
               "ToolTip": "C:\\Users\\kay\\Desktop\\project1111\\ADS_2024_CA2_Eoin_Hamill\\Project\\CA2EoinHamill\\BSTNode.h",
               "RelativeToolTip": "BSTNode.h",
-              "ViewState": "AgIAAIwAAAAAAAAAAAAowKEAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-28T11:28:36.695Z"
+              "WhenOpened": "2024-11-28T11:28:36.695Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CA2EoinHamill.cpp",
               "DocumentMoniker": "C:\\Users\\kay\\Desktop\\project1111\\ADS_2024_CA2_Eoin_Hamill\\Project\\CA2EoinHamill\\CA2EoinHamill.cpp",
               "RelativeDocumentMoniker": "CA2EoinHamill.cpp",

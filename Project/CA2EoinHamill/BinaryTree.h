@@ -202,6 +202,7 @@ T* BinaryTree<T>::toArray()
 }
 
 template <class T>
+//Clear method
 void BinaryTree<T>::clear()
 {
 	delete root;
