@@ -1,34 +1,44 @@
 #pragma once
 #include <iostream>
-
 using namespace std;
+
+//Nodes contain data. links to its parent and left child / right child of node.
 template <class T>
 class BSTNode
 {
-	
+	//Pointers 
 	BSTNode<T> *parent;
 	BSTNode<T> *left;
 	BSTNode<T> *right;
+	//Storing the information of the nodes here
 	T data;
 	
 public:
+	//Constructors
 	BSTNode();
 	BSTNode(const BSTNode<T>& other);
 	BSTNode<T>* operator=(const BSTNode<T>& other);
 	BSTNode(T data);
+	//Setter
 	void setItem(T item);
+	//counts the nodes
 	int count();
+	//add an item
 	void add(T& item);
+	//Getters
 	BSTNode<T>* getParent();
 	BSTNode<T>* getLeft();
 	BSTNode<T>* getRight();
+	//Setters
 	void setLeft(BSTNode<T> *l);
 	void setRight(BSTNode<T> *r);
 	T& getItem();
+	//Destructor
 	~BSTNode();
 
 };
 
+//Constructor which copies another node.
 template <class T>
 BSTNode<T>::BSTNode(const BSTNode<T>& other)
 {
@@ -40,6 +50,7 @@ BSTNode<T>::BSTNode(const BSTNode<T>& other)
 
 }
 
+//
 template <class T>
 BSTNode<T>* BSTNode<T>::operator=(const BSTNode<T>& other)
 {
@@ -52,6 +63,7 @@ BSTNode<T>* BSTNode<T>::operator=(const BSTNode<T>& other)
 		this->right = new BSTNode<T>(*other.right);
 	
 }
+//Destructor to delete
 template <class T>
 BSTNode<T>::~BSTNode()
 {
@@ -67,6 +79,7 @@ BSTNode<T>::~BSTNode()
 	}
 
 }
+//Getters
 template <class T>
 T& BSTNode<T>::getItem()
 {
@@ -87,6 +100,7 @@ BSTNode<T>* BSTNode<T>::getParent()
 {
 	return this->parent;
 }
+//Setters
 template <class T>
 void BSTNode<T>::setLeft(BSTNode<T> *l)
 {
@@ -97,8 +111,8 @@ void BSTNode<T>::setRight(BSTNode<T> *r)
 {
 	this->right = r;
 }
-
-
+//Constructors
+//Default constructor
 template <class T>
 BSTNode<T>::BSTNode()
 {
@@ -107,7 +121,7 @@ BSTNode<T>::BSTNode()
 	right = nullptr;
 }
 
-
+//Just data no children constructor
 template <class T>
 BSTNode<T>::BSTNode(T data)
 {
@@ -116,6 +130,7 @@ BSTNode<T>::BSTNode(T data)
 	right = nullptr;
 	this->data = data;
 }
+//Counts
 template <class T>
 int BSTNode<T>::count()
 {
@@ -130,7 +145,7 @@ int BSTNode<T>::count()
 	}
 	return c;
 }
-
+//add
 template <class T>
 void BSTNode<T>::add(T& item)
 {
@@ -165,7 +180,7 @@ void BSTNode<T>::add(T& item)
 		}
 	}
 }
-
+//Setter
 template <class T>
 void BSTNode<T>::setItem(T item)
 {

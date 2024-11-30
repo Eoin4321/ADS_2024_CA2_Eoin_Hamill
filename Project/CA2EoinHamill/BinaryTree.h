@@ -5,13 +5,19 @@
 template <class T>
 class BinaryTree
 {
+	//Helper method
 	void addItemToArray(BSTNode<T>* node, int &pos, T *arr);
 public:
+	//Pointer to root
 	BSTNode<T> *root;
+	//Default Constructor
 	BinaryTree();
+	//Constructor to copy another tree
 	BinaryTree(const BinaryTree<T> &other);
 	BinaryTree<T> operator=(const BinaryTree<T>& other);
+	//Adding to a tree
 	void add(T& item);
+	//Remove from the tree
 	bool remove(T& item);
 	//Stage 1 methods
 	void clear();
@@ -26,25 +32,30 @@ public:
 
 
 
-
+	//counts all the BSTnodes in the tree
 	int count();
+	//Gets a item from the binary tree
 	T& get(T& item);
-
+	//Prints
 	void printInOrder();
 	void printInOrder(BSTNode<T> *node);
 	void printPreOrder();
 	void printPreOrder(BSTNode<T> *node);
 	void printPostOrder();
 	void printPostOrder(BSTNode<T> *node);
+	//To array
 	T* toArray();
+	//Destructor
 	~BinaryTree();
 };
 
+//Constructors
 template <class T>
 BinaryTree<T>::BinaryTree()
 {
 	root = nullptr;
 }
+
 
 template <class T>
 BinaryTree<T>::BinaryTree(const BinaryTree<T>& other)
@@ -53,6 +64,8 @@ BinaryTree<T>::BinaryTree(const BinaryTree<T>& other)
 	if(other.root != nullptr)
 		root = new BSTNode<T>(*other.root);
 }
+
+//Adds all nodes from a different tree into this one
 template <class T>
 BinaryTree<T> BinaryTree<T>::operator=(const BinaryTree<T>& other)
 {
@@ -65,6 +78,8 @@ BinaryTree<T> BinaryTree<T>::operator=(const BinaryTree<T>& other)
 	return *this;
 
 }
+
+//Add
 template <class T>
 void BinaryTree<T>::add(T& item)
 {
@@ -78,6 +93,7 @@ void BinaryTree<T>::add(T& item)
 		root->add(item);
 	}
 }
+//Counts all the nodes in the tree
 template <class T>
 int BinaryTree<T>::count()
 {
@@ -85,6 +101,7 @@ int BinaryTree<T>::count()
 		return 0;
 	return root->count();
 }
+//remove
 template <class T>
 bool BinaryTree<T>::remove(T& item)
 {
@@ -160,6 +177,7 @@ bool BinaryTree<T>::remove(T& item)
 	}
 
 }
+//Get
 template <class T>
 T& BinaryTree<T>::get(T& item)
 {
@@ -179,6 +197,7 @@ T& BinaryTree<T>::get(T& item)
 	}
 	throw logic_error("ITem not found");
 }
+//Adding to an array
 template <class T>
 void BinaryTree<T>::addItemToArray(BSTNode<T>* node, int &pos, T *arr)
 {
@@ -191,7 +210,7 @@ void BinaryTree<T>::addItemToArray(BSTNode<T>* node, int &pos, T *arr)
 	}
 
 }
-
+//Change to an array
 template <class T>
 T* BinaryTree<T>::toArray()
 {
@@ -208,6 +227,7 @@ void BinaryTree<T>::clear()
 	delete root;
 	root = nullptr;
 }
+//Destructor
 template <class T>
 BinaryTree<T>::~BinaryTree()
 {
@@ -218,6 +238,7 @@ BinaryTree<T>::~BinaryTree()
 	}
 }
 
+//Prints
 template<class T>
 void BinaryTree<T>::printInOrder()
 {

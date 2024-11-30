@@ -26,7 +26,7 @@ public:
 
 	
 };
-
+//Add to the tree.
 template<class K, class V>
 void Tree<K, V>::put(K key, V value) {
 	KeyValuePair<K, V> keyAndValue;
