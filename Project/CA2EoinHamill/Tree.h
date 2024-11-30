@@ -8,7 +8,7 @@ template<class K, class V>
 class Tree
 {
 public:
-	BinaryTree<K, V> BinaryTree;
+	BinaryTree<KeyValuePair<K, V>> BinaryTree;
 	
 	Tree() {
 
