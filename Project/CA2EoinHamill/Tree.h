@@ -18,7 +18,7 @@ public:
 	void clear();
 	bool containsKey(K key);
 	V& get(K key);
-	//BinaryTree<K>keySet();
+	//BinaryTree<K> keySet();
 	void put(K key, V value);
 	int size();
 	bool removeKey(K key);
@@ -106,4 +106,10 @@ bool Tree<K, V>::removeKey(K key) {
 	}
 }
 
-
+//template<class K, class V>
+//BinaryTree<K> Tree<K, V>::keySet()
+//{
+//	BinaryTree<K> allKeys;
+//
+//	
+//}
