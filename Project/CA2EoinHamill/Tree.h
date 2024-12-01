@@ -16,12 +16,12 @@ public:
 	
 	//Stage 1 methods
 	void clear();
-	//bool containsKey(K key);
+	bool containsKey(K key);
 	V& get(K key);
 	//BinaryTree<K>keySet();
 	void put(K key, V value);
 	int size();
-	//Bool removeKey(K key);
+	bool removeKey(K key);
 	V& operator[](K key);
 
 	
@@ -74,5 +74,36 @@ V& Tree<K, V>::operator[](K key) {
 	return this->get(key);
 }
 
+//Contains key
+template<class K, class V>
+bool Tree<K, V>::containsKey(K key) {
+	KeyValuePair<K, V> keyInput;
+	keyInput.setKey(key);
+		try
+	{
+			BinaryTree.get(keyInput);
+			return true;
+	}
+	catch (const std::exception&)
+	{
+		return false;
+	}
+}
+
+//Remove a Key
+template<class K,class V>
+bool Tree<K, V>::removeKey(K key) {
+	KeyValuePair<K, V> keyInput;
+	keyInput.setKey(key);
+	try
+	{
+		BinaryTree.remove(keyInput);
+		return true;
+	}
+	catch (const std::exception&)
+	{
+		return false;
+	}
+}
 
 

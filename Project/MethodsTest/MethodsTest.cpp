@@ -60,7 +60,42 @@ namespace MethodsTest
 			string original = tree.get(5);
 
 			//Checking if they are equal
-			Assert::AreEqual(comparasion, original,L"Values dont match");
+			Assert::AreEqual(comparasion, original, L"Values dont match");
+		}
+
+		//Testing The Contains Method
+		TEST_METHOD(TestingContainsMethod)
+		{
+			//Making the tree for testing and adding in values
+			Tree<int, string> tree;
+			tree.put(1, "num1");
+			tree.put(2, "num2");
+			tree.put(3, "num3");
+			tree.put(4, "num4");
+			tree.put(5, "num5");
+
+			//Checking if it contains 
+			Assert::IsTrue(tree.containsKey(3));
+			Assert::IsFalse(tree.containsKey(56));
+		}
+
+		//Testing The Remove Method
+		TEST_METHOD(TestingRemoveMethod)
+		{
+			//Making the tree for testing and adding in values
+			Tree<int, string> tree;
+			tree.put(1, "num1");
+			tree.put(2, "num2");
+			tree.put(3, "num3");
+			tree.put(4, "num4");
+			tree.put(5, "num5");
+
+			tree.removeKey(3);
+			//Checking if it has been removed. 
+			Assert::IsFalse(tree.containsKey(3));
+			Assert::IsTrue(tree.containsKey(5));
 		}
 	};
+
+
 }
